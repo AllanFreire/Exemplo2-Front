@@ -1,10 +1,11 @@
-import React from 'react'
-
+import Aluno from './components/Aluno'
+import Dados from './components/Dados'
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Aluno nome="Fiap" idade="30"/>
+      <Dados usuario="Allan" email="allan.ragazzofreire@gmail.com"/>
+    </>
   )
 }
 
