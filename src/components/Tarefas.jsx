@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import '../css/estilo.css'
 
 const Tarefas = () => {
   const [tarefas, setTarefas] = useState(() => {
@@ -55,6 +56,7 @@ const Tarefas = () => {
         ))} 
           
       </ul>
+      {/* {Compara se não tiver tarefas deixar a nenhuma tarefa salva} */}
       {tarefas.length === 0 && <p>Nenhuma tarefa salva</p>}
     </>
   )
