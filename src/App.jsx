@@ -1,9 +1,11 @@
-import Aluno from './components/Contador'
-import Dados from './components/Tarefas'
+// import Contador from './components/Contador'
+import Tarefas from "./components/Tarefas"
+
 const App = () => {
   return (
     <>
-     <Tarefas/>
+      {/* <Contador/> */}
+      <Tarefas />
     </>
   )
 }
