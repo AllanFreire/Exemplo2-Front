@@ -1,10 +1,9 @@
-import Aluno from './components/Aluno'
-import Dados from './components/Dados'
+import Aluno from './components/Contador'
+import Dados from './components/Tarefas'
 const App = () => {
   return (
     <>
-      <Aluno nome="Fiap" idade="30"/>
-      <Dados usuario="Allan" email="allan.ragazzofreire@gmail.com"/>
+     <Tarefas/>
     </>
   )
 }
